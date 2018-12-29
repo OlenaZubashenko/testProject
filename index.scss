@@ -1,0 +1,255 @@
+$titleFont: Georgia;
+$secondaryFont: Verdana;
+$primaryColor: #cccccc;
+$bcgHeader: #412718;
+$bcgGalleryForm: #5b3a27;
+$bcgContent: #46291c;
+$bcgFooter: #20130b;
+$bcgNav: #8f5f26;
+$bcgLight: #e9e9c0;
+$lincColor: #99cc00;
+$ColorInRightForm: #a46461;
+$bgcImg: #333333;
+*{
+  margin: 0;
+  padding: 0;
+}
+.btn-continue{
+  border: none;
+  background-color: $bcgContent;
+  &:hover{
+    cursor: pointer;
+    opacity: .8;
+  }
+  }
+.header {
+  background-color: $bcgHeader;
+  padding: 10px;
+
+  &__logo:hover {
+    cursor: pointer;
+    opacity: .9;}
+  h1{
+    font-family: $titleFont;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+h3{
+  font-family: $secondaryFont;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+  .square__item{
+    width: 25px;
+    height: 25px;
+    border: 1px solid $bcgNav;
+    background-color: $bcgHeader;
+    margin-right: 45px;
+  }
+  .bottom__item {
+    font-family: $secondaryFont;
+    height: 45px;
+    background-color: $bcgNav;
+    padding-left: 30px;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-bottom: -26px;
+    &:hover{
+      cursor: pointer;
+      opacity: .8;
+    }
+    &--active{
+      background-color: #ff9900;
+    }
+  }
+   }
+.gallery-form {
+  background-color: $bcgGalleryForm;
+  padding-top: 45px;
+.main-photo img{
+  border: 5px solid #e9e9c0;
+  width: 100%;
+}
+  .little-photo img{
+    border: 5px solid #e9e9c0;
+    width: 30%;
+  }
+}
+.form{
+  border: 1px solid $ColorInRightForm;
+  color: $primaryColor;
+  padding: 10px;
+  margin-bottom: 10px;
+    p{
+    font-family: $titleFont;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 30px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid $ColorInRightForm;
+  }
+  input {
+    background-color: #20130b;
+    border-color: $ColorInRightForm;
+    height: 23px;
+  }
+  .spacing{
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  label {
+    font-family: $titleFont;
+      }
+.date input{
+  width: 30%;
+}
+.age div{
+  width: 50%;
+  }
+  .check {
+    background-color: $ColorInRightForm;
+    color: $primaryColor;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+
+      }
+  .download{
+    background-color: $bcgLight;
+    padding: 10px;
+   }
+  a{
+    font-family: $secondaryFont;
+    color: $ColorInRightForm;
+    line-height: 13px;
+    font-size: 11px;
+    &:hover{
+      cursor: pointer;
+      color: $bcgHeader;
+    }
+  }
+}
+.content {
+  background-color: $bcgContent;
+  padding: 20px 10px 10px 20px;
+  .block-title{
+    font-family: $titleFont;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid $bcgGalleryForm;
+  }
+  h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+.info-top{
+  background-color: $bcgLight;
+  color: $bcgFooter;
+  font-family: $secondaryFont;
+  width: 45%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+  .img-border{
+    border: 4px solid $primaryColor;
+  }
+.btn-read{
+  border: none;
+  background-color: $bcgLight;
+  :hover{
+    cursor: pointer;
+    opacity: .8;
+  }
+}
+  .info-center {
+    width: 45%;
+
+    margin-bottom: 15px;
+    img{
+      width: 100%;
+    }
+     }
+}
+
+.left__wraper-bottom {
+  a{
+    color: $lincColor;
+  }
+}
+.content__right{
+  .block1 {
+    border-bottom: 1px solid $bcgGalleryForm;
+    margin-bottom: 40px;
+    img{
+  width: 64px;
+  height: 64px;
+  border: 3px solid $bcgLight;
+      margin: 10px;
+      }
+
+  }
+  .block2 {
+    margin-bottom: 40px;
+    button{
+      margin-bottom: 30px;
+    }
+  }
+}
+.block3 {
+  margin-bottom: 40px;
+  li{
+   margin-left: 50px;
+  }
+}
+.block4 {
+  margin-bottom: 40px;
+  .img-title{
+    margin-bottom: 20px;
+    margin-top: 80px;
+    border-bottom: 1px solid $bcgGalleryForm;
+  }
+  img {
+    margin: 10px;
+  }
+}
+.footer{
+  padding-top: 40px;
+  background-color: $bcgFooter;
+  .block-title{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: $titleFont;
+    color: $primaryColor;
+    border-bottom: 1px solid $bcgGalleryForm;
+  }
+  .email-btn{
+    background-color: $bcgGalleryForm;
+    border: 1px solid $bcgFooter;
+  }
+  .go-btn {
+padding: 1px;
+    background-color: $bcgGalleryForm;
+    border: 1px solid $bcgFooter;
+  }
+  li{
+    list-style: none;
+    color: $primaryColor;
+    a{
+      color: $primaryColor;
+    }
+  }
+  .copyright{
+    background-color: $bcgHeader;
+    margin-bottom: 40px;
+  }
+}
+

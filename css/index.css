@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.btn-continue {
+  border: none;
+  background-color: #46291c; }
+  .btn-continue:hover {
+    cursor: pointer;
+    opacity: .8; }
+
+.header {
+  background-color: #412718;
+  padding: 10px; }
+  .header__logo:hover {
+    cursor: pointer;
+    opacity: .9; }
+  .header h1 {
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px; }
+  .header h3 {
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px; }
+  .header .square__item {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #8f5f26;
+    background-color: #412718;
+    margin-right: 45px; }
+  .header .bottom__item {
+    font-family: Verdana;
+    height: 45px;
+    background-color: #8f5f26;
+    padding-left: 30px;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-bottom: -26px; }
+    .header .bottom__item:hover {
+      cursor: pointer;
+      opacity: .8; }
+    .header .bottom__item--active {
+      background-color: #ff9900; }
+
+.gallery-form {
+  background-color: #5b3a27;
+  padding-top: 45px; }
+  .gallery-form .main-photo img {
+    border: 5px solid #e9e9c0;
+    width: 100%; }
+  .gallery-form .little-photo img {
+    border: 5px solid #e9e9c0;
+    width: 30%; }
+
+.form {
+  border: 1px solid #a46461;
+  color: #cccccc;
+  padding: 10px;
+  margin-bottom: 10px; }
+  .form p {
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #a46461; }
+  .form input {
+    background-color: #20130b;
+    border-color: #a46461;
+    height: 23px; }
+  .form .spacing {
+    margin-bottom: 0;
+    margin-top: 10px; }
+  .form label {
+    font-family: Georgia; }
+  .form .date input {
+    width: 30%; }
+  .form .age div {
+    width: 50%; }
+  .form .check {
+    background-color: #a46461;
+    color: #cccccc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px; }
+  .form .download {
+    background-color: #e9e9c0;
+    padding: 10px; }
+  .form a {
+    font-family: Verdana;
+    color: #a46461;
+    line-height: 13px;
+    font-size: 11px; }
+    .form a:hover {
+      cursor: pointer;
+      color: #412718; }
+
+.content {
+  background-color: #46291c;
+  padding: 20px 10px 10px 20px; }
+  .content .block-title {
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #5b3a27; }
+  .content h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px; }
+  .content .info-top {
+    background-color: #e9e9c0;
+    color: #20130b;
+    font-family: Verdana;
+    width: 45%;
+    padding: 10px;
+    margin-bottom: 15px; }
+  .content .img-border {
+    border: 4px solid #cccccc; }
+  .content .btn-read {
+    border: none;
+    background-color: #e9e9c0; }
+    .content .btn-read :hover {
+      cursor: pointer;
+      opacity: .8; }
+  .content .info-center {
+    width: 45%;
+    margin-bottom: 15px; }
+    .content .info-center img {
+      width: 100%; }
+
+.left__wraper-bottom a {
+  color: #99cc00; }
+
+.content__right .block1 {
+  border-bottom: 1px solid #5b3a27;
+  margin-bottom: 40px; }
+  .content__right .block1 img {
+    width: 64px;
+    height: 64px;
+    border: 3px solid #e9e9c0;
+    margin: 10px; }
+
+.content__right .block2 {
+  margin-bottom: 40px; }
+  .content__right .block2 button {
+    margin-bottom: 30px; }
+
+.block3 {
+  margin-bottom: 40px; }
+  .block3 li {
+    margin-left: 50px; }
+
+.block4 {
+  margin-bottom: 40px; }
+  .block4 .img-title {
+    margin-bottom: 20px;
+    margin-top: 80px;
+    border-bottom: 1px solid #5b3a27; }
+  .block4 img {
+    margin: 10px; }
+
+.footer {
+  padding-top: 40px;
+  background-color: #20130b; }
+  .footer .block-title {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: Georgia;
+    color: #cccccc;
+    border-bottom: 1px solid #5b3a27; }
+  .footer .email-btn {
+    background-color: #5b3a27;
+    border: 1px solid #20130b; }
+  .footer .go-btn {
+    padding: 1px;
+    background-color: #5b3a27;
+    border: 1px solid #20130b; }
+  .footer li {
+    list-style: none;
+    color: #cccccc; }
+    .footer li a {
+      color: #cccccc; }
+  .footer .copyright {
+    background-color: #412718;
+    margin-bottom: 40px; }
